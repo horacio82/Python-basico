@@ -1,2 +1,2 @@
-# Python-basico
-Curso de Python básico de Píldoras informáticas.
+# Python
+Píldoras informáticas-Curso básico de Python desde cero.
