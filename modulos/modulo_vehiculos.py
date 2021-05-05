@@ -1,5 +1,6 @@
-'''Píldoras informáticas - video 29/30/31
-	POO VI - Herencia.'''
+'''Píldoras informáticas - Video 34
+	Módulos.
+'''
 
 class Vehiculos():
 
@@ -63,23 +64,4 @@ class VElectricos(Vehiculos):
 		self.cargando=True
 
 
-miMoto=Moto("Honda", "CBR")
-
-miMoto.caballito()
-
-miMoto.estado()	
-
-miFurgoneta=Furgoneta("Renault", "Kangoo")
-
-miFurgoneta.arrancar()
-
-miFurgoneta.estado()
-
-print(miFurgoneta.carga(True))			
-
-
-class BicicletaElectrica(VElectricos, Vehiculos): #Herencia múltiple
-
-	pass
-
-miBici=BicicletaElectrica("Orbeo","Alguno")			
+	

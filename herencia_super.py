@@ -22,7 +22,7 @@ class Empleado(Persona):
 
 	def __init__(self, salario, antiguedad, nombre_empleado, edad_empleado, residencia_empleado):
 
-		#LLama al método init de la clase padre:
+		#LLama al método init de la clase padre
 		super().__init__(nombre_empleado, edad_empleado, residencia_empleado) 
 
 		self.salario=salario
