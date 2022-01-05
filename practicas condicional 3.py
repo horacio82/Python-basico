@@ -8,7 +8,7 @@ opcion = input("Escribe la asignatura escogida: ")
 #Transforma el texto ingresado en minúsculas:
 asignatura=opcion.lower()
 
-
+#Compara lo que ingrese el usuario con lo que hay almacenado en la variable asignatura:
 if asignatura in ("informática gráfica", "pruebas de software", "usabilidad y accesibilidad"):
 	print("Asignatura elegida: " + asignatura)
 else:

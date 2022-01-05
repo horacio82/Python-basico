@@ -1,5 +1,5 @@
 #Píldoras informáticas 
-#Bucles II Video 15:
+#Bucles II Video 14 y 15:
 
 for estaciones in ["primavera","verano","otoño","invierno"]:
 	print(estaciones)
