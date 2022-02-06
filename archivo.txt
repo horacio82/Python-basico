@@ -1,1 +1,3 @@
-Estupendo día para estudiar Python.
+Estupendo día para estudiar Python
+un sábado.
+siempre es una buena ocasión para estudiar.
