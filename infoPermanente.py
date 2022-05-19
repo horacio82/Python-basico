@@ -16,6 +16,20 @@ class Persona:
 class ListaPersonas:
     personas=[]
 
+    def __int__(self):
+        listaDePersonas=open("ficheroExterno", "ab+")
+        listaDePersonas.seek(0)
+
+        try:
+            self.personas=pickle.load(listaDePersonas)
+            print("Se cargaron {} personas del fichero externo".format(len(self.personas)))
+        except:
+            print("El fichero está vacío.")
+
+        finally:
+            listaDePersonas.close()
+            del(listaDePersonas)
+
     def agregarPersonas(self, p):
         self.personas.append(p)
 
@@ -25,13 +39,3 @@ class ListaPersonas:
 
 miLista=ListaPersonas()                
 
-p=Persona("Sandra", "Femenino", 29)            
-miLista.agregarPersonas(p)
-
-p=Persona("Antonio", "Masculino", 39)            
-miLista.agregarPersonas(p)
-
-p=Persona("Ana", "Femenino", 19)            
-miLista.agregarPersonas(p)
-
-miLista.mostrarPersonas()
