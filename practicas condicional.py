@@ -2,7 +2,7 @@
 #CONDICIONALES III VIDEO 12
 
 salario_presidente=int(input("Introduce el salario del presidente:"))
-print("Salario presidente " + str (salario_presidente))
+print("Salario presidente ",(salario_presidente))
 
 salario_director=int(input("Introduce el salario del director:"))
 print("Salario director " + str (salario_director))

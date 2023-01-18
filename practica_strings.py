@@ -1,3 +1,6 @@
+#Pildoras informáticas
+#Curso de Python. Métodos de cadenas. Vídeo 33
+
 #nombreUsuario=input("Introduce tu nombre de Usuario: ")
 
 #print("El nombre es:",nombreUsuario.lower())
