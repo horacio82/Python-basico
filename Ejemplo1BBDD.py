@@ -1,3 +1,5 @@
+#Píldoras informáticas - video 56
+
 import sqlite3
 
 miConexion=sqlite3.connect("Primera base")
