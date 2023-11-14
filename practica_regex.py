@@ -1,5 +1,5 @@
 '''
-Pildopras informáticas - video 69 y 70
+Pildopras informáticas - video 69,70 Y 71
 qué son las expresiones regulares. Se trata de herramientas muy útiles 
 para la manipulación y procesado de texto.
 '''
@@ -39,3 +39,24 @@ for elemento in lista_nombres:
         print(elemento)
 
     
+#----------------------------------video 72-------------------------------------------
+
+cadena1="jARA López"
+cadena2="564654"
+cadena3="a45621987" 
+
+if re.match("\d",cadena2):
+    print("Hemos encontrado el número.")
+else:
+    print("No lo hemos encontrado.")    
+
+
+codigo1="dkfdnhdlñpslñfhsdd"
+codigo2="jfisklvnb71klowyt"
+codigo3="dngoqugmodjff"
+
+if re.search("71", codigo2):
+    print("Hemos encontrado el código")
+
+else:
+    print("No lo hemos encontrado")    
